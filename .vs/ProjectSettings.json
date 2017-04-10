@@ -1,21 +1,12 @@
-
+{
     "rest.api": {
         // ...
         
-        "guest": false,
-        "users": [
-            {
-                "name": "stefb965",
-                "password": "21Infire21"
-            },
-            {
-                "name": "insomniaqc",
-                "password": "3807"
-            },
-            {
-                "name": "stefb965@gmail.com",
-                "password": "21infire21"
+        "endpoints": {
+            "myendpoint": {
+                "script": "./my-endpoint.js",
+                "options": "Hello!"
             }
-        ]
+        }
     }
 }
