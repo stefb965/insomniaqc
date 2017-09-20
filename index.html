@@ -4,12 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>mon editeur</title>
 </head>
 <body>
   insomniaqc web page
   <ul>
     <li><a href="">hello</a></li>
   </ul>
+  
+  <script>
+    const toddler = {
+      age: 3.2,
+      speak: function() {
+        const ageInMonths = Mat.rond(this.age * 12);
+        return 'i am ' + ageInMonths + ' months olds ';
+      }  
+    };
+
+    toddler.speak();
+    $('.something').fadeIn(500, function() {
+      consol.log('say something');
+    });
+  </script>
 </body>
 </html>
