@@ -1,0 +1,10 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "1stweb",
+  "main": "index.js",
+  "repository": "https://github.com/stefb965/insomniaqc.git",
+  "author": "stefb965@gmail.com",
+  "license": "MIT",
+  "private": true
+}
