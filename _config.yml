@@ -31,3 +31,5 @@
       unzip BrowserStackLocal-linux-x64.zip
       # Run the file with user's access key
       ./BrowserStackLocal eK12mPQZnvyWycCQNYiu
+
+theme: jekyll-theme-hacker
