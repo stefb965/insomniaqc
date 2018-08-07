@@ -21,3 +21,13 @@
 
 # run tests!
 - run: ./gradlew test
+# Download and run BrowserStack local
+- run:
+    name : Download BrowserStack Local binary and start it.
+    command : |
+      # Download the browserstack binary file
+      wget "https://www.browserstack.com/browserstack-local/BrowserStackLocal-linux-x64.zip"
+      # Unzip it
+      unzip BrowserStackLocal-linux-x64.zip
+      # Run the file with user's access key
+      ./BrowserStackLocal eK12mPQZnvyWycCQNYiu
